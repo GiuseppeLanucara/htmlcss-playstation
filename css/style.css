@@ -42,6 +42,11 @@ img {
     font-weight: 600;
 }
 
+
+.no-show {
+    display: none;
+}
+
 /* /UTILITY */
 
 header {
@@ -83,4 +88,28 @@ header {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;
+}
+
+#banner2-section {
+    background-color: grey;
+}
+
+#plus{
+    max-width: 300px;
+}
+
+.old-white {
+    background-color: rgb(226, 222, 222);
+    color: rgb(43, 43, 233);
+    border: none;
+}
+
+@media screen and (min-width:768px) {
+    .no-show {
+        display: inline-block;
+    }
+}
+
+#yellow-banner {
+    height: 100%;
 }
