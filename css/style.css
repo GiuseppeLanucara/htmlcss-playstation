@@ -30,6 +30,10 @@ img {
     border: none;
 }
 
+.ms-rd {
+    border-radius: 20px;
+}
+
 .ms-size {
     font-size: larger;
 }
@@ -63,3 +67,21 @@ header {
         min-height: 700px;
     }
 }
+
+.ms-md-descr {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .ms-md-descr {
+        display: inline-block;
+    }
+}
+
+#banner {
+    min-height: 500px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
