@@ -7,5 +7,59 @@ img {
 
 /* UTILITY */
 
+.black{
+    background-color: black;
+}
+
+.white {
+    color: white;
+}
+
+.ms-list-style {
+    list-style-type: none;
+}
+
+.ms-decoration{
+    text-decoration: none;
+    color: black;
+}
+
+.ms-radious {
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+}
+
+.ms-size {
+    font-size: larger;
+}
+
+.ms-weight {
+    font-weight: 600;
+}
 
 /* /UTILITY */
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#logo {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+#jumbotron {
+    min-height: 500px;
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width:1440px) {
+    #jumbotron {
+        min-height: 700px;
+    }
+}
