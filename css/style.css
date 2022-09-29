@@ -113,3 +113,11 @@ header {
 #yellow-banner {
     height: 100%;
 }
+
+#blue-banner-section {
+    background-color: rgb(4, 4, 117);
+}
+
+#blue-banner {
+    height: 100%;
+}
