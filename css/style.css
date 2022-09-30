@@ -51,6 +51,36 @@ img {
     color: white;
 }
 
+.old-white {
+    background-color: rgb(226, 222, 222);
+    color: rgb(43, 43, 233);
+    border: none;
+}
+
+.color {
+    color: #ffffff;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.smaller {
+    font-size: small;
+}
+
+.ms-mt {
+    margin-top: 200px;
+}
+
+.orange {
+    background-color: #CD3D0F;
+    border: none;
+}
 /* /UTILITY */
 
 header {
@@ -102,11 +132,7 @@ header {
     max-width: 300px;
 }
 
-.old-white {
-    background-color: rgb(226, 222, 222);
-    color: rgb(43, 43, 233);
-    border: none;
-}
+
 
 @media screen and (min-width:768px) {
     .no-show {
@@ -130,18 +156,6 @@ footer {
     background-color: #00439C;
 }
 
-.color {
-    color: #ffffff;
-}
-
-.block{
-    display: block;
-}
-
-.inline {
-    display: inline-block;
-}
-
 #sie {
     max-width: 100px;
 }
@@ -150,24 +164,13 @@ footer {
     max-width: 250px;
 }
 
-.smaller {
-    font-size: small;
-}
-
-.ms-mt {
-    margin-top: 200px;
-}
-
-.orange {
-    background-color: #CD3D0F;
-    border: none;
-}
-
 @media screen and (min-width:992px) {
     .ms-lg {
         width: 40%;
     }
 }
+
+/* HOVER EFFECTS */
 
 #jumbotron .btn-primary:hover {
     --bs-btn-hover-bg: #8f2907;
@@ -185,3 +188,5 @@ nav .btn-primary:hover {
     margin-top: -10px;
     transition: calc(1s);
 }
+
+/* /HOVER EFFECTS */
