@@ -146,6 +146,19 @@ footer {
     max-width: 100px;
 }
 
+#returnal-banner {
+    max-width: 250px;
+}
+
 .smaller {
     font-size: small;
+}
+
+.ms-mt {
+    margin-top: 200px;
+}
+
+.orange {
+    background-color: orangered;
+    border: none;
 }
