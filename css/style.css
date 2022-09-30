@@ -4,7 +4,6 @@ img {
     max-width: 100%;
 }
 
-
 /* UTILITY */
 
 .black{
@@ -45,6 +44,11 @@ img {
 
 .no-show {
     display: none;
+}
+
+.ms-weight-b {
+    font-weight: 700;
+    color: white;
 }
 
 /* /UTILITY */
@@ -122,3 +126,26 @@ header {
     height: 100%;
 }
 
+footer {
+    background-color: blue;
+}
+
+.color {
+    color: #ffffff;
+}
+
+.block{
+    display: block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+#sie {
+    max-width: 100px;
+}
+
+.smaller {
+    font-size: small;
+}
