@@ -168,3 +168,20 @@ footer {
         width: 40%;
     }
 }
+
+#jumbotron .btn-primary:hover {
+    --bs-btn-hover-bg: #8f2907;
+    transform: scale(1.1);
+    transition:calc(1s);
+}
+
+nav .btn-primary:hover {
+    --bs-btn-hover-bg: rgb(12, 12, 12);
+    transform: scale(1.1);
+    transition:calc(1s);
+}
+
+.upper:hover {
+    margin-top: -10px;
+    transition: calc(1s);
+}
